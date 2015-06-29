@@ -1,0 +1,44 @@
+
+*************************************************************************************************
+*												*
+*				Car Rental Management Application				*
+*					     Manual						*
+*												*
+*************************************************************************************************
+	
+NAME
+		'edit': This command is used to edit a specific record.
+		
+SYNPOSIS
+		edit [number]
+	
+DESCRIPTION
+		After receiving correct ID [number], the command is is split into two modes:
+		
+			'edit' [...]:		('car' | 'rentalRate' | 'state') to edit the corr-
+						esponding information.
+			'cancel':		to cancel current editing process.
+			'cancel' [number]:	to cancel a specific contract. The rental rate will
+						be decreased after this command (logic sense).
+			'finish' [number]:	to end a specific contract. Use when a contract is
+						properly finished. Rental rate will not be decreased
+						after this command (logic sense).
+	
+AUTHOR
+		Vietnamese-German University (VGU)
+		Introduction to Computer Science - group 4:
+		
+			* Dao Thanh Duy, 7469
+				cs2014_duy.dt@student.vgu.edu.vn
+			* Nguyen Thanh Binh, 6886
+				cs2014_binh.nt@student.vgu.edu.vn
+			* Ngo Chinh Dung, 7471
+				cs2014_dung.nc@student.vgu.edu.vn
+	
+COPYRIGHT
+		Copyright © 2015 Free Software Foundation, Inc.
+		License GPLv3+: GNU GPL version 3 or later 
+		<http://gnu.org/licenses/gpl.html>.
+		This is free software: you are free to change and redistribute
+		it. There is NO WARRANTY, to the extent permitted by law.
+	

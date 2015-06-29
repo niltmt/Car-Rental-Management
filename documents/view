@@ -1,0 +1,38 @@
+
+*************************************************************************************************
+*												*
+*				Car Rental Management Application				*
+*					     Manual						*
+*												*
+*************************************************************************************************
+	
+NAME
+		'view': This command is used to view the information of current database.
+		
+SYNPOSIS
+		view [...] (ID [number] or 'all')
+	
+DESCRIPTION
+		This command is followed by an argument. There are two modes:
+		
+			* [number]:	to view full information for a specific record.
+			* 'all':	to view general information of the database.
+	
+AUTHOR
+		Vietnamese-German University (VGU)
+		Introduction to Computer Science - group 4:
+		
+			* Dao Thanh Duy, 7469
+				cs2014_duy.dt@student.vgu.edu.vn
+			* Nguyen Thanh Binh, 6886
+				cs2014_binh.nt@student.vgu.edu.vn
+			* Ngo Chinh Dung, 7471
+				cs2014_dung.nc@student.vgu.edu.vn
+		
+COPYRIGHT
+		Copyright © 2015 Free Software Foundation, Inc.
+		License GPLv3+: GNU GPL version 3 or later 
+		<http://gnu.org/licenses/gpl.html>.
+		This is free software: you are free to change and redistribute
+		it. There is NO WARRANTY, to the extent permitted by law.
+		

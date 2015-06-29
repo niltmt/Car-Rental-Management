@@ -1,0 +1,40 @@
+
+*************************************************************************************************
+*												*
+*				Car Rental Management Application				*
+*					     Manual						*
+*												*
+*************************************************************************************************
+	
+NAME
+		'delete': This command is used to delete a specific record or the whole database.
+	
+SYNPOSIS
+		delete [...] (ID [number] or 'all' or 'database')
+	
+DESCRIPTION
+		The command comes with three modes with relevant argument.
+		
+			* [number] : 	to delete the record with the ID [number]
+			* 'all': 	to delete all records but keep the database file
+			* 'database': 	to delete the database file - useful for corrupted file sit-
+					uation.
+	
+AUTHOR
+		Vietnamese-German University (VGU)
+		Introduction to Computer Science - group 4:
+		
+			* Dao Thanh Duy, 7469
+				cs2014_duy.dt@student.vgu.edu.vn
+			* Nguyen Thanh Binh, 6886
+				cs2014_binh.nt@student.vgu.edu.vn
+			* Ngo Chinh Dung, 7471
+				cs2014_dung.nc@student.vgu.edu.vn
+	
+COPYRIGHT
+		Copyright (c) 2015 Free Software Foundation, Inc.
+		License GPLv3+: GNU GPL version 3 or later 
+		<http://gnu.org/licenses/gpl.html>.
+		This is free software: you are free to change and redistribute
+		it. There is NO WARRANTY, to the extent permitted by law.
+	

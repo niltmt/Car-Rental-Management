@@ -1,0 +1,36 @@
+
+*************************************************************************************************
+*												*
+*				Car Rental Management Application				*
+*					     Manual						*
+*												*
+*************************************************************************************************
+	
+NAME
+		'add': This command is used to add a new record into the database.
+	
+SYNOPSIS
+		add
+		
+DESCRIPTION
+		After the command input, user will be prompted with relevant information requirem-
+		ents such as: Manufacture name, Model name, Rental rate,...
+	
+AUTHOR
+		Vietnamese-German University (VGU)
+		Introduction to Computer Science - group 4:
+		
+			* Dao Thanh Duy, 7469
+				cs2014_duy.dt@student.vgu.edu.vn
+			* Nguyen Thanh Binh, xxxx
+				cs2014_binh.nt@student.vgu.edu.vn
+			* Ngo Chinh Dung, 7471
+				cs2014_dung.nc@student.vgu.edu.vn
+	
+COPYRIGHT
+		Copyright (c) 2015 Free Software Foundation, Inc.
+		License GPLv3+: GNU GPL version 3 or later 
+		<http://gnu.org/licenses/gpl.html>.
+		This is free software: you are free to change and redistribute
+		it. There is NO WARRANTY, to the extent permitted by law.
+	

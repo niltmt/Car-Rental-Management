@@ -1,0 +1,50 @@
+
+*************************************************************************************************
+*												*
+*				Car Rental Management Application				*
+*					     Manual						*
+*												*
+*************************************************************************************************
+	
+DESCRIPTION
+		This application helps car rental management work to be more convenient. It does 
+		supply basic features (packed as commands) for database viewing, appending.
+	
+USAGE
+		Here are the list of commands (type 'man <command>' for more details) that can be
+		used to interact:
+		
+			* 'view': 	Viewing database by 2 modes: view all / at a specific
+					position.
+			* 'delete':	Deleting the whole database or specific record.
+			* 'add':	Adding new record into database.
+			* 'edit':	Edit data at specific record in database.
+			* 'rent':	Adding rental data for a specific record.
+			* 'search':	Search information trough the database.
+			* 'exit':	Exiting the program.
+	
+INSTALLATION
+		This application requires Java SDK (se 1.7+) to be installed.
+		For Windows it is provided at:
+			http://www.oracle.com/technetwork/java/javase/downloads/index.html
+		For Ubuntu:
+			#sudo apt-get install python-software-properties
+			#sudo add-apt-repository ppa:webupd8team/java
+			#sudo apt-get update
+			#sudo apt-get install oracle-java6-installer
+		Uni-Platform (within terminal or command prompt):
+			#java AppMain
+	
+AUTHOR
+		Vietnamese-German University (VGU) Introduction to Computer Science - group 4:
+		
+			* Dao Thanh Duy		7469		cs2014_duy.dt@student.vgu.edu.vn
+			* Nguyen Thanh Binh	6886		cs2014_binh.nt@student.vgu.edu.vn
+			* Ngo Chinh Dung	7471		cs2014_dung.nc@student.vgu.edu.vn
+	
+COPYRIGHT
+		Copyright (c) 2015 Free Software Foundation, Inc. License GPLv3+: GNU GPL version 3
+		or later <http://gnu.org/licenses/gpl.html>.
+		This is free software: you are free to change and redistribute it.
+		There is NO WARRANTY, to the extent permitted by law.
+	
