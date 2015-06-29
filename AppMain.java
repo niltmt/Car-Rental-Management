@@ -515,7 +515,8 @@ class databaseInteract {
                         int cus_c = 0;
                         while (cus_c < list.get(data_c).rentCur) {
                             if (date >= list.get(data_c).customerList.get(cus_c).dateStart &&
-                                    date <= list.get(data_c).customerList.get(cus_c).dateStart) {
+                                    date <= list.get(data_c).customerList.get(cus_c).dateReturn) {
+                                System.out.println();
                                 avail = false;
                                 break;
                             }
@@ -568,7 +569,7 @@ class databaseInteract {
                     currentP.obj = list.get(data_c);
                     currentP.id = data_c;
                     currentP.percent = searchInRecord(list.get(data_c), key);
-                    if (currentP.percent < 100)
+                    if (currentP.percent < 100 && currentP.percent > 0)
                         currentP.percent++; //Acceptable uncertainty, up to 0.99%
                     if (currentP.percent > 0) {
                         searchDatabase.add(currentP);
